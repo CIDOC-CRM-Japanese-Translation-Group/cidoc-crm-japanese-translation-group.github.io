@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIDOC CRM Japanese Translation Group</title>
+
+  <script>
+    // ブラウザの言語設定を取得
+    const userLang = navigator.language || navigator.userLanguage;
+
+    // 言語コードが "ja" で始まる場合、日本語ページにリダイレクト
+    if (userLang.startsWith('ja')) {
+      window.location.href = "/ja/";
+    } else {
+      // それ以外は英語ページにリダイレクト
+      window.location.href = "/en/";
+    }
+  </script>
+</head>
+<body>
+  <!-- コンテンツ -->
+</body>
+</html>
