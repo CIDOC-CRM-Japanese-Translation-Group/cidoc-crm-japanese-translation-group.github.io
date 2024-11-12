@@ -4,14 +4,14 @@ module.exports = {
       activities: "Activities",
       members: "Members",
       links: "Links",
-      Contact: "Contact"
+      contact: "Contact"
     },
     ja: {
       about: "このグループについて",
       activities: "活動",
       members: "メンバー",
       links: "リンク",
-      Contact: "連絡先"
+      contact: "連絡先"
     }
   };
   
